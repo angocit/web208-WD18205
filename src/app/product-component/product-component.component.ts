@@ -18,7 +18,7 @@ export class ProductComponentComponent {
     getProduct(){
       this.httpClient.get('https://dummyjson.com/products')
       .subscribe((response:any)=>{
-        console.log(response);
+        console.log(response.products);
         this.products = response.products;
       });
     }

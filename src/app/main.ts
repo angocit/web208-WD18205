@@ -16,7 +16,7 @@ import {FooterComponentComponent} from './footer-component/footer-component.comp
     ProductComponentComponent,
     FooterComponentComponent
 ],
-  templateUrl: './home.html'
+  templateUrl: './main.html'
 })
 export class MainComponent {
 
